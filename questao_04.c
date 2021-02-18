@@ -1,15 +1,5 @@
 /*
-As expressıes ilegais ser„o:
-
+As express√µes ilegais ser√£o:
 d. 
 f.
-
-
-
-
-
-
-
-
-
 */
