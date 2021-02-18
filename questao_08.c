@@ -3,10 +3,9 @@
 int main()
 {
     int mat[4],*p,x;
-	p = mat+1;// essa express„o È v·lida e ela toma o endereÁo de mat[1] = p.
-	p = mat;`// essa express„o È inv·lida pois tem um acento depois do ponto e vÌrgula. Se n„o, seria uma express„o v·lida e p seria igual ao endereÁo de mat[0].
-	p = `mat;// novamente, È inv·lida pois h· um acento no meio da express„o. Se n„o, teria o mesmo valor da express„o anterior (p = mat[0]).
-	x = (*mat);`// express„o inv·lida devido ao acento. Caso funcionasse, daria ao x o valor do ˙ltimo endereÁo possÌvel ‡ 4 bytes anteriores ao mat[0] (porque um inteiro tem 4 bytes).
-	
+	p = mat+1;// Essa express√£o √© v√°lida e ela toma o endere√ßo de mat[1] = p.
+	p = mat;// √â uma express√£o v√°lida e p √© igual ao endere√ßo de mat[0].
+	p = mat;// Tem o mesmo valor da express√£o anterior (p = mat[0]).
+	x = (*mat);// Express√£o v√°lida, atribuindo ao x o valor do √∫ltimo endere√ßo poss√≠vel √† 4 bytes anteriores ao mat[0] (porque um inteiro tem 4 bytes).
 	return 0;
 }
